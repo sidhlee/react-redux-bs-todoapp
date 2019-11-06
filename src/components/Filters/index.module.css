@@ -1,0 +1,8 @@
+/* :global(.navbar-light .navbar-nav .nav-link.active) {
+  color: var(--primary);
+} */
+
+/* More specifically scoped. won't affect Nav.Link styling in other Components */
+.Filter:global(.active) {
+  color: var(--primary) !important;
+}
